@@ -39,7 +39,7 @@ async function run(){
         });
 
 
-      //   post api
+      //   post api to send data 
         app.post('/services', async(req,res)=>{
             const service = req.body;
             console.log('hit the api',service);
